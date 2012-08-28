@@ -1,0 +1,29 @@
+div.link{
+    padding: 5px 15px 5px 15px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin: 0 30px 30px 30px;
+}
+
+div.link .titulo{
+    font-family: 'HelveticaNeueLTStd67MdCn';
+    color: #6D6E71;
+}
+
+div.link .descricao{
+    font-family: 'HelveticaNeueLTStd57Condensed';
+    color: #808285;
+}
+
+div.link .url{
+    font-family: 'HelveticaNeueLTStd57Condensed';
+    color: #004A80;
+}
+
+div.link:hover{
+    border: 1px solid #004A80;
+}
+
+div.link .blueHover{
+    color: #00AEEF !important;
+}

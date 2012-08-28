@@ -1,0 +1,58 @@
+#Cadastros{
+    width: 650px;
+    float: left;
+    padding-left: 10%;
+    margin-top: 10px;
+}
+
+#Cadastros .tituloTab{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 3px;
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+#Cadastros .inputTab{
+    margin-bottom: 15px;
+}
+
+#Cadastros input[type=text]{
+    width: 100%;
+}
+#Cadastros input[type=password]{
+     width: 100%;
+}
+
+#Cadastros textarea {
+    font-family: Tahoma;
+    font-weight: normal;
+    font-size: 16px; width: 100%;
+    color: #333333;
+    border: 1px solid #aaaaaa;
+    background-color: #efefef ;
+    width: 388px;
+   
+}
+
+#Cadastros select {
+    font-family: Tahoma;
+    height: 32px;
+    font-size: 16px; width: 100%;
+    color: #333333;
+    border: 1px solid #aaaaaa;
+    background-color: #efefef ;
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-bottom: 15px;
+}
+
+#faixaEsquerda{
+    width: 295px;
+    margin-left: -20px;
+    background: url(/_modulos/_site/_images/faixaEsquerda.jpg) no-repeat;
+    padding-top: 70px;
+}

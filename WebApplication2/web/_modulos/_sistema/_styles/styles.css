@@ -1,0 +1,513 @@
+body {
+    margin: 0;
+}
+
+/*BLACKSCREEN*/
+.bs_root {
+    position:absolute; 
+    width:100%; 
+    height:100%; 
+    top:0px; 
+    left:0px; 
+    background-image:url(/_modulos/_sistema/_images/bsbg3.png);
+    color:#FFFFFF;
+    z-index: 1000;
+}
+
+#blackscreenWinload{
+    background-image: url("/_modulos/_sistema/_images/bsbg5.png");
+}
+
+/*WHITESCREEN*/
+.ws_root {
+    position:absolute; 
+    width:100%; 
+    height:100%; 
+    top:0px; 
+    left:0px; 
+    background: #000;
+    opacity: 0.85;
+    color:#333; 
+    z-index:1000; 
+}
+
+/*BLACKSCREEN*/
+.bs_root_winload {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    background-image:url(/_modulos/_sistema/_images/bsbg5.png);
+    background-repeat:repeat;
+    color:#FFFFFF;
+    z-index: 900;
+}
+
+/*WINDOWS*/
+.txt_preload {
+    position:relative;
+    width:100px;
+    height:30px;
+    top:20px; 
+    background: #fff;
+}
+
+.icon_window {
+    float: left;
+    width:134px; 
+    height:131px; 
+    background-repeat:no-repeat;
+}
+
+.window_area {
+    position:relative; 
+    width:640px; 
+    min-height:96px; 
+    top:30px;
+    border:solid #efefef 0px;
+}
+
+.window_content{
+    float: left; 
+    min-width:640px; 
+    min-height:86px; 
+    border: solid #f00 0px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.window_btn_wrap{
+    position: relative;
+    width: 100%;
+    background-color: yellow;
+    text-align: right;
+}
+
+.window_btn_close{
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    height: 35px;
+    width: 35px;
+    background: url(/_modulos/_sistema/_images/closeBg.png);
+    background-position: 0 0;
+}
+.window_btn_close:hover{
+    cursor: pointer;
+    background-position: 0 -35px;
+}
+
+
+
+.window_linha_top {
+    float: left;
+    width:640px; 
+    height:9px; 
+    background-image:url(/_modulos/_sistema/_images/linha_top_window.png);
+}
+
+.window_mid {
+    float: left; 
+    width:620px; 
+    min-height: 47px; 
+    /*background-image:url(/_modulos/_sistema/_images/linha_mid_window.png);*/    
+    padding: 10px;
+}
+
+.window_btn_area {
+    float: left; 
+    width:640px; 
+    height: 29px; 
+    background-image:url(/_modulos/_sistema/_images/linha_mid_window.png);
+}
+
+.window_linha_bot {
+    float: left; 
+    width:640px; 
+    height:9px; 
+/*    background-image:url(/_modulos/_sistema/_images/linha_bot_window.png);*/
+}
+
+.icon_failure {
+    position:relative; 
+    width:75px; 
+    height:75px; 
+    top:75px; 
+    background-image:url(/_modulos/_sistema/_images/icon_failure.png);
+    background-repeat:no-repeat;
+}
+
+.window_failure {
+    position:relative; 
+    width:556px; 
+    height:206px; 
+    top:100px; 
+    border:solid white 2px; 
+    background-color:#ED1C24;
+}
+
+.icon_success {
+    position:relative; 
+    width:75px; 
+    height:75px; 
+    top:75px; 
+    background-image:url(/_modulos/_sistema/_images/icon_success.png);
+    background-repeat:no-repeat;
+}
+
+.window_success {
+    position:relative;
+    width:556px; 
+    height:206px; 
+    top:100px; 
+    border:solid white 2px; 
+    background-color:#72BF44;
+}
+
+.icon_confirm {
+    position:relative; 
+    width:75px; 
+    height:75px; 
+    top:75px; 
+    background-image:url(/_modulos/_sistema/_images/icon_confirm.png);
+    background-repeat:no-repeat;
+}
+
+.window_confirm {
+    position:relative; 
+    width:556px; 
+    height:206px; 
+    top:100px; 
+    border:solid white 2px; 
+    background-color:#DAA746;
+}
+
+.window_title {
+    position:relative; 
+    width:100%; 
+    height:25px; 
+    top:5px; 
+    font-weight:bold;
+}
+
+.window_text_area {
+    float: left; 
+    margin-left: 10px; 
+    width:476px; 
+    min-height:100px; 
+    font-weight:normal; 
+    font-family: Arial, Tahoma, 'Trebuchet Ms'; 
+    color: #333;
+}
+
+.titulo_window {
+    text-align: left;
+    width: 450px;
+    font-size:28px;
+    font-family: Tahoma;
+    border: 0px solid;
+    color: #203f6b;
+    font-style: italic;
+    line-height: 42px;
+    position: relative;
+}
+
+.sub_titulo_window {
+    text-align: left;
+    width: 380px;
+    margin-left: 35px;
+    margin-top: 15px;
+    font-size:16px;
+    font-family: Tahoma;
+    border: 0px solid;    
+    font-style: italic;
+    position: relative;
+}
+
+.message_window {
+    text-align: left;
+    width: 380px;
+    margin-left: 35px;
+    margin-top: 20px;
+    font-size:14px;
+    color: #666;
+    line-height: 20px;
+    font-family: Tahoma;
+    border: 0px solid;
+    font-style: italic;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.btn_ok_window {
+    margin-right: 10px;    
+    float: right;
+    width:45px;
+    height:29px;
+    cursor: pointer;
+    background-image: url(/_modulos/_sistema/_images/btn_ok_window.jpg);
+}
+
+.btn_continuar_window {
+    margin-right: 10px;
+    float: right;
+    width:121px;
+    height:29px;
+    cursor: pointer;
+    background-image: url(/_modulos/_sistema/_images/btn_continuar_window.jpg);
+}
+
+.btn_cancelar_window {
+    margin-right: 10px;
+    float: right;
+    width:121px;
+    height:29px;
+    cursor: pointer;
+    background-image: url(/_modulos/_sistema/_images/btn_cancelar_window.jpg);
+}
+
+.window_btn_loLite {
+    width: 80px;
+    height: 25px;
+    float: right;
+    border: 2px solid #dcddde;
+    color: #636466;
+    padding-top: 5px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.window_btn_hiLite {
+    width: 80px;
+    height: 25px;
+    float: right;
+    border: 2px solid #b1b3b6;
+    background-color: #ffffff;
+    color: #000000;
+    padding-top: 5px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.window_content2 {
+    position: relative;
+    width: 550px;
+    height: 200px;
+    top: 3px;
+    background-image: url(/_modulos/_sistema/_images/window_box_background.png);
+    background-repeat: repeat-x;
+    font-family: Tahoma;
+    color: #000000;
+    font-size: 16px;
+}
+
+.window_title2 {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    top: 5px;
+    font-weight: bold;
+}
+
+.window_text_area2 {
+    position: relative;
+    width: 535px;
+    height: 115px;
+    top: 15px;
+    font-weight: normal;
+}
+
+.window_btn_area2 {
+    position: relative;
+    width: 535px;
+    top: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.window_btn_loLite2 {
+    width: 80px;
+    height: 25px;
+    float: right;
+    border: 2px solid #dcddde;
+    color: #636466;
+    padding-top: 5px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.window_btn_hiLite2 {
+    width: 80px;
+    height: 25px;
+    float: right;
+    border: 2px solid #b1b3b6;
+    background-color: #ffffff;
+    color: #000000;
+    padding-top: 5px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+#footer {
+    position: absolute;
+    right: 0;
+    margin-top: -57px;
+    height: 57px;
+    clear: both;
+}
+
+
+
+.inputAdm {
+    font: normal 16px/30px Arial, Tahoma;
+    height: 30px;
+    color: #333333;
+    border: 1px solid #aaaaaa;
+    background-color: #efefef;
+    border-radius: 3px;
+}
+
+.inputSelectVest {
+    font: normal 14px/26px Arial, Tahoma;
+    height: 26px;
+    color: #333333;
+    line-height: 26px;
+    border: 1px solid #aaaaaa;
+    background-color: #efefef;
+}
+
+.textAreaAdm {
+    font: normal 16px/30px Arial, Tahoma;
+    height: 30px;
+    width: 100%;
+    color: #333333;
+    border: 1px solid #aaaaaa;
+    background-color: #efefef;
+}
+
+.inputForm {
+    font: normal 16px/30px Arial, Tahoma;
+    height: 30px;
+    width: 100%;
+    height: 30px;
+    color: #333333;
+    border: 1px solid #aaaaaa;
+    background-color: #efefef;
+}
+
+.txtLogin {
+    font-size: 14px;
+    font-family: Tahoma;
+    border: 0 solid;
+}
+
+.txtDetalhes {
+    font-size: 12px;
+    font-family: Tahoma;
+    border: 0 solid;
+}
+
+.txtTituloAdm {
+    font-size: 14px;
+    font-family: Tahoma;
+    border: 0 solid;
+    color: #ffffff;
+}
+
+.btnAddAdm {
+    position: relative;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    background: url(/_modulos/_sistema/_images/btn_add.png) center center no-repeat;
+    cursor: pointer;
+}
+
+.btnAddAdm:hover{
+    opacity: 0.8;
+}
+
+.btnDelAdm {
+    position: relative;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    background: url(/_modulos/_sistema/_images/btn_excluir.png) center center no-repeat;
+    cursor: pointer;
+}
+.btnDelAdm:hover{
+    opacity: 0.8;
+}
+.btnDelAllAdm {
+    position: relative;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    background: url(/_modulos/_sistema/_images/btn_excluir.png) center center no-repeat;
+    cursor: pointer;
+}
+.btnDelAllAdm:hover{
+    opacity: 0.8;
+}
+
+.checkBoxAdm {
+    position: relative;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.checkBoxAdm:hover{
+    opacity: 0.8;
+}
+
+
+.btnSaveAdm {
+    position: relative;
+    margin: 0 auto;
+    width: 77px;
+    height: 31px;
+    background: url(/_modulos/_sistema/_images/btn_salvar.png) center center no-repeat;
+    cursor: pointer;
+}
+.btnSaveAdm:hover{
+    opacity: 0.8;
+}
+
+.linkAdm {
+    font: normal 12px/12px Arial, Tahoma;
+    text-decoration: underline;
+    color: #00f;
+    cursor: pointer;
+}
+ #historicoFaexpedia thead{
+        background: #EEE;
+ }
+ 
+ #historicoFaexpedia  table{
+         border: 1px solid #CCC;
+         font-size: 11px;
+         margin-top: 20px;
+    }
+ #historicoFaexpedia   table td{
+        border-bottom:1px solid #EEE;
+        border-left:1px solid #EEE;
+        text-align: center;
+        padding: 2px;
+ }
+ 
+ #historicoFaexpedia{
+     padding-right: 5px;
+ }
+ 
+ .btn_close_popup {
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    width: 101px;
+    height: 37px;
+    cursor: pointer;
+    z-index: 1000000;
+    background-image: url(/_modulos/_sistema/_images/btn_close_popup.png);
+}

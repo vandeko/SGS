@@ -1,0 +1,66 @@
+#calendario{
+    background: url(/_modulos/_site/_images/calendario.png) no-repeat;
+    width: 465px;
+    height: 250px;
+    padding-top: 50px;
+}
+
+#calendario a{
+    color: #464649;
+    text-decoration: underline;
+}
+
+#calendario a:visited{
+    color: #464649;
+}
+#calendario a:hover{
+    color: #6d6f73;
+}
+
+div#calendario #ultimoRegistro{
+    width: 335px;
+    height: 70px;
+    margin-left: 12px;
+    text-align: left;
+    font-family: Tahoma, Helvetica, Verdana, Arial, sans-serif;
+    color: #58595b;
+}
+
+div#calendario #doisRegistro{
+    width: 425px;
+    margin: 5px 0 0 12px;
+    font-family: Tahoma, Helvetica, Verdana, Arial, sans-serif;
+    color: #58595b;
+    text-align: left;
+}
+
+div#calendario #col1{
+    float: left;
+    width: 207px;
+    height: 70px;
+}
+
+div#calendario #col2{
+    float: left;
+    width: 207px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+div#calendario #ultimoRegistro #data{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+div#calendario #ultimoRegistro #texto{
+    font-size: 12px;
+}
+
+div#calendario #doisRegistro .data{
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+div#calendario #doisRegistro .texto{
+    font-size: 11px;
+}

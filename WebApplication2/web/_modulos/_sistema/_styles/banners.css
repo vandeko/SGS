@@ -1,0 +1,35 @@
+div#areaPublicidade {
+    width: 944px;
+    height: 197px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+div#areaBannerMenu {
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    z-index: 100;
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px 0px 5px 0px;
+}
+
+.btnBannerOff {
+    float: left;
+    width: 9px;
+    height: 10px;
+    background: url('/_modulos/_banners/_images/btn_banner_off.jpg');
+    cursor: pointer;
+    margin: 0 3px 0 3px;
+}
+
+.btnBannerOn {
+    float: left;
+    width: 9px;
+    height: 10px;
+    background: url('/_modulos/_banners/_images/btn_banner_on.jpg');
+    cursor: pointer;
+    margin: 0 3px 0 3px;
+}

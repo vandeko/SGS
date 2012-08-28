@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/web/telas/Login.html</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/web/telas/teste.jsp</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/entidades/Patrimonio.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/entidades/TipoServico.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/entidades/Servico.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/entidades/Chamado.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/entidades/DetalheChamado.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/DAO/SetorDAO.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/DAO/UsuarioDAO.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/DAO/PatrimonioDAO.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/DAO/TipoServicoDAO.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/DAO/ServicoDAO.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/DAO/ModuloDAO.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/DAO/SubModuloDAO.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/DAO/ChamadoDAO.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/DAO/DetalheChamadoDAO.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/actions/SetorActions.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/actions/PatrimonioActions.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/web/index.jsp</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/web/telas/Principal.html</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/web/_modulos/_sistema/_admin/login.jsp</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/web/telas/formularioTipoServico.html</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/web/META-INF/context.xml</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/web/WEB-INF/web.xml</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/entidades/DAO.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/actions/ModuloActions.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/helpDesk/actions/SubModuloActions.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/web/telas/p.jsp</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/web/_modulos/_sistema/_stylesAdm.jsp</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/web/_modulos/_setor/_files/admin.jsp</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/web/_modulos/_setor/_views/adm_setor_cadastro.jsp</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/web/_modulos/_setor/admin.jsp</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/web/admin.jsp</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/web/configuracoes.jsp</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/src/java/gestordeprocessos/util/Configuracoes.java</file>
+        <file>file:/C:/Users/EDLAINE/Documents/backup/Backups-04-06/backup-04-06-2012/NetBeansProjects/WebApplication2/web/_modulos/_sistema/_admin/index.jsp</file>
+    </open-files>
+</project-private>

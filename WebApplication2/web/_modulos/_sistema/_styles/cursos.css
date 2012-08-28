@@ -1,0 +1,119 @@
+#midTemplate div#ColLeft{
+    font-family: 'HelveticaNeueLTStd67MdCn';
+    font-size: 30px;
+    color: #808285;
+    padding-left: 20px;
+    float: left;
+    width: 285px;
+}
+
+#submenu{
+    background: url(/_modulos/_site/_images/submenu.png) no-repeat;
+    margin-top: 1px\9; /* IE8 and below */
+    background-position: center;
+    width: 100%;
+    text-align: center;
+}
+
+#submenu li{
+    display: inline;
+    color: white;
+    font-family: 'HelveticaNeueLTStd67MdCn';
+    padding: 0 15px 0px 15px;
+    font-size: 18px;    
+}
+
+#submenu li.subMenuClick{
+    cursor: pointer;
+}
+
+#submenu li.clicked{
+    color: yellow;
+    font-family: 'HelveticaNeueLTStd67MdCn';
+    cursor: default;
+    text-shadow: 0px 0px 3px #666;
+}
+
+#submenu li.subMenuClick:hover{
+    color: yellow;
+}
+
+#midTemplate div#ColRight{
+    float: left;
+    width: 680px;
+    line-height: 30px;
+}
+
+#fotoBanner{
+    width: 295px;
+    margin-left: -20px;
+    background: url(/_modulos/_site/_images/fotoBanner.jpg) no-repeat;
+    padding-top: 70px;
+}
+
+#fotosGallery{
+    width: 160px;
+    margin-left: 125px;
+    margin-top: -5px;
+}
+
+#fotosGallery img{
+    margin-right: 5px;
+}
+
+#cursoConteudo{
+    color: #6d6e71;
+    font-family: 'HelveticaNeueLTStd57Condensed';
+    font-family: 'HelveticaNeueLTStd67MdCn'\9; /* IE8 and below */
+    font-size: 15px;
+}
+
+#cursoConteudo h1{
+    font-family: 'HelveticaNeueLTStd77BdCn';
+    font-size: 17px;
+}
+
+#cursoConteudo p{
+    line-height: 20px;
+}
+
+#corpoDocente{
+    font-family: Tahoma;
+    font-size: 13px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#corpoDocente tr{
+    padding: 0px;
+    line-height: 15px;
+}
+
+#corpoDocente td{
+    padding-left: 5px;
+    line-height: 20px;
+
+}
+
+#corpoDocente .rowOne{
+    font-family: HelveticaNeueLTStd57Condensed;
+    font-size: 18px;
+    color: #00AEE3;
+}
+
+#corpoDocente tr{
+    padding: 0px;
+    line-height: 15px;
+}
+
+#corpoDocente a{
+    color: black;
+}
+
+#corpoDocente a:hover{
+    color: #444;
+}
+
+#corpoDocente a:visited{
+    color: black;
+}

@@ -1,0 +1,928 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline:none
+}
+
+body {
+    padding:0;
+    border:0;
+    margin:0;
+    background:#e9e9e9;
+}
+
+html, body {
+    height:100%;
+}
+
+* html .pagina {
+    height: 100%;
+}
+
+div#full {
+    border: 0px solid #000000;
+    height: 100%;
+    width: 100%;
+}
+
+/*
+============================================================
+============================================================ CABECALHO
+============================================================
+*/
+div#cabecalho {
+    height: 90px;
+    border-bottom: 1px solid #000;
+}
+
+div#areaCabecalho {
+    margin: 0 auto;
+    height: 90px;
+}
+
+div#contCabecalho {
+    float: left;
+    margin: 0 auto;
+    height: 90px;
+    background-color: #efefef;
+    vertical-align: bottom;
+}
+
+div#linhaEsq {
+    float: left;
+    width: 3px;
+    height: 90px;
+    border-left: 1px solid #fff;
+}
+
+div#linhaDir {
+    float: left;
+    width: 3px;
+    height: 90px;
+    border-right: 1px solid #fff;
+}
+
+div#logoCabecalho {
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+    height: 80px;
+    vertical-align: bottom;
+}
+
+div#logoCabecalho img {
+    float: left;
+    background: #fff;
+    height: 80px;
+}
+
+div#txtPainel {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: 'Trebuchet Ms', Tahoma;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #163056;
+    font-weight: bold;
+}
+
+/* =========================================================== LINHA */
+div#linha {
+    width: 100%;
+    height: 12px;
+    background-color: #cecece;
+}
+
+/* =========================================================== ADMINISTRADOR */
+div#administrador {
+    width: 100%;
+    background-color: #efefef;
+}
+
+div#linhaAdm1 {
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    border: 0px;
+}
+
+div#linhaAdm2 {
+    position: absolute;
+    margin-top: 4px;
+    height: 40px;
+    width: 100%;
+    border: 0px;
+}
+
+div#linhaAdm3 {
+    margin-top: 44px;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    border: 0px;
+}
+
+div#conteudoAdm {
+    position: absolute;
+    background-color: #fff;
+    margin-left: 50%;
+}
+
+/* Admin 2.0: Inicio */
+.containerPanel {
+    background: url(/_modulos/_sistema/_images/tcc4.png) ;
+    width:100%;
+    height:77px;
+    font-family:"Arial Black", Gadget, sans-serif;
+    font-size:18px;
+    line-height:48px;
+    position:relative;
+    margin:0 auto;
+    alignment-adjust: central;
+}
+.topPanel {
+
+    width:1000px;
+    height:77px;
+    margin:0 auto;
+    position:relative;
+}
+.topPanel .titulo {
+    float:left;
+    position:relative;
+}
+.topPanel .versao {
+    float:right;
+    background:url(/_modulos/_sistema/_images/logo_prosper.png) no-repeat left;
+    padding-left:35px;
+    position:relative;
+}
+.container {
+    position: relative;
+    width: 1000px;    
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    
+}
+#conteudo{
+    border-radius: 18px;
+}
+.containerPrincipal { 
+    background:white;
+    margin:0 auto;
+    border-bottom:1px #dadada solid;
+}
+.containerRodape {
+    width:100%;
+    height:21px;
+    background:#232323;
+    color:#FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-style:italic;
+    position:relative;
+    text-align: center;
+        
+}
+.rodape {
+    width:1000px;
+    height:21px;
+    margin:0 auto;
+    text-align:center;
+    line-height:21px;
+    font-weight:bold;
+    position:relative;
+}
+.menuNavegacao {
+    width:100%;
+    height:20px;
+    text-transform:uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:11px;
+    color:#232323;
+    line-height:20px;
+    margin-left:5px;
+    position:relative;
+    text-align:left;
+}
+
+.menuSecundario{
+    height: 45px;
+
+}
+
+.menuSecundario .miniIcon {
+    cursor: pointer;
+    float: left;
+    height: 34px;
+    margin: 5px 3px 0;
+    padding: 0 3px;
+    vertical-align: bottom;
+    width: 24px;
+}
+
+
+.menuSecundario .miniIcon img{
+    margin-top: 5px;
+}
+
+.ddMenu{
+    font-family: Tahoma, Helvetica, Arial, Verdana;
+    font-size: 12px;
+    display: none;
+    width: 200px;
+    margin-left: -3px;
+    z-index: 499;
+    position: relative;
+    box-shadow: 2px 2px 2px #444;
+    top: 4px;
+}
+
+.ddMenu li{
+    list-style: none;
+    padding: 5px;
+    border-bottom: 1px solid #bbb;
+    background-color: #CCC;
+}
+
+
+
+.colunaEsquerda {
+    float: left;
+    width: 310px;
+}
+
+.colunaDireita {
+    width:680px;
+    min-height:150px;
+    float:left;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+
+.containerLogo {
+    margin: 15px 0 25px;
+    padding-left: 53px;
+}
+.btnMenu {
+    width:110px;
+    height:110px;
+    border-radius:8px;
+    background:#FFF;
+    box-shadow: 0 1px 1px #999;
+    margin:10px;
+    float:left;
+    cursor:pointer;
+    position:relative;
+}
+
+.btnMenu .icone {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width:110px;
+    height:85px;
+    margin:0 auto;
+    position:relative;
+}
+.btnMenu .legenda {
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:11px;
+    text-align:center;
+    color:#232323;
+    margin:0 auto;
+    width:100px;
+    line-height:10px;
+    /*font-weight:600;*/
+    position:relative;
+}ver
+.btnMenu span {
+    display: inline-block;
+}
+.clear {
+    clear:both;
+}
+.dialogoMensagem {
+    width:990px;
+    min-height:100px;
+    background:#cecece;
+    border-radius:8px;
+    border:1px solid #000;
+    margin:4px auto;
+    position:relative;
+}
+.dialogoMensagem .simbolo {
+    width:50px;
+    float:left;
+    font-family:Magneto, Tahoma, Geneva, sans-serif;
+    font-size:80px;
+    color:#7e7e7e;
+    position:relative;
+    text-align: left;
+}
+.dialogoMensagem .mensagem {
+    width:900px;
+    min-height:80px;
+    border-radius: 8px;
+    background:#efefef;
+    color:#232323;
+    float:left;
+    padding:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    position:relative;
+}
+
+.dialogoMensagem .fechar {
+    color:#9b0100;
+    font-size:14px;
+    font-family:"Bauhaus 93", Verdana, Geneva, sans-serif;
+    width:20px;
+    margin:0 auto;
+    float:left;
+    text-align:center;
+    position:relative;
+    cursor: pointer;
+}
+.dialogoMensagem .fechar:hover{
+    color: #999;
+}
+.containerDialogo {
+    padding:5px;
+}
+
+.containerLogin{
+    width: 200px;
+    height: 170px;
+    margin: 80px auto;
+    padding-right: 25px;
+
+}
+
+.containerLogin table{
+    font-size: 15px;
+    margin: 40px 0 0 10px;
+    float: left;
+}
+
+.containerLogin input{
+    border-radius:3px;
+    padding-left: 30px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.containerLogin #login{
+    background:url(/_modulos/_sistema/_images/users_grey.png) left no-repeat;
+}
+.containerLogin #senha{
+    background: url(/_modulos/_sistema/_images/pass_grey.png) left no-repeat;
+}
+.containerLogin #email{
+    background:url(/_modulos/_sistema/_images/email_grey.png) left no-repeat;
+}
+/*FAEXPEDIA*/
+.containerLogin .btnLogin{
+    background:url(/_modulos/_sistema/_images/btn_ok_login.png) left no-repeat;
+    width: 36px;
+    height: 36px;
+    display: none;
+    cursor: pointer;
+}
+
+.cellDisable{
+    color: #CCCCCC;
+    font-style: italic;
+
+}
+
+.cellDisable img{
+    opacity:0.6;
+}
+
+
+.cellFinished{
+    color: #009900;
+    font-style: italic;
+}
+
+.cellWaiting{
+    color: red;
+    font-style: italic;
+}
+.cellReply{
+    color: #8A8;
+    font-style: italic;
+}
+
+.cellImportada{
+    color: #353;
+    font-style: italic;
+}
+
+input,select,textarea{
+    border-radius:3px;
+    border:solid 1px #aaaaaa;
+}
+.pcontrol input{
+    margin-top: 3px;
+    padding-left:3px;
+}
+.pGroup select{
+    margin-top: 2px;
+}
+
+/*            #navegacao{
+                background: #FFF;
+                margin-top: 5px;
+                padding-bottom: 10px;
+                width: 100%;
+                height: 100%;
+                border: 0px solid #f33;
+            }*/
+
+#navegacao{
+    /*    background: #F2f2f2;*/
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#formulario{
+    width: 96%;
+    margin: 0 auto;
+}
+
+#formulario label{
+    color: #333;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+#formulario .rightFix{
+    margin-right: 0px !important;
+}
+
+#formulario ul.markup{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#formulario ul.markup li{
+    margin-top: 13px;
+}
+
+#formulario ul.markup li .left{
+    float: left;
+    margin-right: 20px;
+}
+#formulario ul.markup li .right{
+    float: right;
+    margin-right: 20px;
+}
+
+#formulario ul.markup li textarea{
+    resize: none;
+    height: 110px;
+}
+
+
+
+
+.searchLetter{
+    padding: 0;
+}
+.notas{
+    background: url(flexigrid/images/notas.png) no-repeat left;
+}
+
+
+/* Admin 2.0: Fim */
+/* =========================================================== INTERIOR */
+div#interior {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: 0px solid;
+}
+
+/* =========================================================== INTERIOR */
+.itemMenuAdm {
+    float: left;
+    padding: 5px 10px;
+    line-height: 30px;
+    font-family: Tahoma;
+    font-size: 11px;
+    color: #333;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.itemMenuAdmOver {
+    float: left;
+    padding: 5px 10px;
+    line-height: 30px;
+    font-family: Tahoma;
+    font-size: 11px;
+    color: #333;
+    background-color: #bbb;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.itemMenuAdmSair {
+    float: right;
+    padding: 5px;
+    line-height: 30px;
+    font-family: 'Trebuchet Ms', Tahoma;
+    font-size: 11px;
+    color: #333;
+    background-color: #ddd;
+    width: 120px;
+}
+
+div#header {
+    height: 67px;
+    border-top: #cacaca solid 1px;
+    border-bottom: #666 solid 1px;
+}
+
+.menuLista {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    font-family: 'Trebuchet Ms', Tahoma;
+    font-size: 12px;
+    color: #222;
+}
+
+.itemLista {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    font-family: 'Trebuchet Ms', Tahoma;
+    font-size: 12px;
+    color: #222;
+}
+
+.textoAdm {
+    font-family:"Tahoma";
+    font-weight:normal;
+    font-size:14px;
+    color:#4E4E4E;
+}
+
+.tituloTab {
+    float: left;
+    font-family:"Tahoma";
+    font-weight:normal;
+    font-size:13px;
+    color:#4E4E4E;
+}
+
+.detalheAdm {
+    font-family:"Tahoma";
+    font-weight:normal;
+    font-size:11px;
+    color:#333333;
+}
+
+.divLogo {
+    float: right;
+    margin-right: 50px;
+    width: 133px;
+    height: 57px;
+    border: 0px;
+    background-image:url(../_images/logo_prosper.png);
+}
+
+.link {
+    font-family:"Tahoma";
+    font-weight:normal;
+    font-size:12px;
+    color:#0000ff;
+    text-decoration: underline;
+}
+
+.inputAdm {
+    font-family: Tahoma;
+    width: 100%; font-weight: normal;
+    font-size: 16px;
+    height: 30px;
+    color: #333333;
+    border: 1px solid #aaaaaa;
+    background-color: #efefef;
+}
+.inputAdmin {
+    font-family: Tahoma;
+    width: 100%; font-weight: normal;
+    font-size: 16px;
+    height: 30px;
+    color: #333333;
+    border: transparent;
+    background-color: white;
+
+}
+.inputConfirmacao {
+    font-family: Tahoma;
+    width: 100%;
+    font-weight: normal;
+    font-size: 16px;
+    height: 30px;
+    color: #333333;
+    border: 1px solid #aaaaaa;
+    background-color: #efefef;
+}
+
+.inputAdm2 {
+    font-family: Tahoma;
+    font-weight: normal;
+    font-size: 16px;
+    height: 30px;
+    color: #333333;
+    border: 1px solid #aaaaaa;
+    background-color: #efefef;
+}
+
+.textareaAdm {
+    font-family: Tahoma;
+    font-weight: normal;
+    font-size: 16px; width: 100%;
+    color: #333333;
+    border: 1px solid #aaaaaa;
+    background-color: #efefef;
+}
+
+.txtLogin {
+    font-size:14px;
+    font-family: Tahoma;
+    border: 0px solid;
+    color: #333333;
+}
+
+.txtDetalhes {
+    font-size:12px;
+    font-family: Tahoma;
+    border: 0px solid;
+}
+
+.menuAdm {
+    font-family: Tahoma;
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #333333; cursor: pointer;
+}
+
+.tituloAdm {
+    font-family: Tahoma;
+    font-weight: normal;
+    font-size: 18px;
+    color: #333333;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.txtTituloAdm {
+    font-size:14px;
+    font-family: Tahoma;
+    border: 0px solid;
+    color: #ffffff;
+}
+
+.titResultadoResposta {
+    font-size:20px;
+    font-family: Tahoma;
+    border: 0px solid;
+    color: #989898;
+}
+.txtResultadoResposta {
+    font-size:16px;
+    font-family: Tahoma;
+    border: 0px solid;
+    color: #989898;
+}
+
+.linhaH10px {
+    float: left;
+    height: 10px;
+    width: 100%;
+}
+.btnWrap{
+    float: left;
+}
+
+.btnWrap .subMenu{
+    font-family: Tahoma, Helvetica, Verdana;
+    font-size: 12px;
+    background-color: red;
+    float: left;
+    position: absolute;
+    display: none;
+    left: 40px;
+    z-index: 9999;
+}
+.btnWrap ul{
+    border: 1px solid #bababa;
+    box-shadow: 2px 2px 3px #888;
+    cursor: pointer;
+}
+
+.btnWrap li{
+    list-style: none;
+    background-color: #EEE;
+    padding: 10px;
+    border-bottom: 1px solid #dadada;
+}
+
+.btnWrap li:hover{
+    background-color: #dCdCdC;
+}
+
+#inputGridBanner {
+    width: 45px;
+    height: 16px;
+    font: 11px/16px Tahoma, Arial;
+    color: #333;
+    background: #efefef;
+    line-height: 16px;
+    text-align: center;
+}
+
+.btnPadrao, .btnPadraoRight{
+    background: #EEE;
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-image: -moz-linear-gradient(center top , #FFFFFF 0pt, #E0E0E0 100%);
+    border-color: #CCCCCC #CCCCCC #AAAAAA;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 0 1px #FFFFFF inset;
+    color: #555555;
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 32px;
+    padding: 0 0.91em;
+    text-shadow: 0 0 0 transparent, 0 1px 0 #FFFFFF;
+    float: left;
+    cursor: pointer;
+    margin: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+.btnPadrao, .btnPadraoR{
+    background: #EEE;
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-image: -moz-linear-gradient(center top , #FFFFFF 0pt, #E0E0E0 100%);
+    border-color: #CCCCCC #CCCCCC #AAAAAA;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 0 1px #FFFFFF inset;
+    color: #555555;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 32px;
+    padding: 0 0.91em;
+    text-shadow: 0 0 0 transparent, 0 1px 0 #FFFFFF;
+    float: left;
+    cursor: pointer;
+    margin: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.btnPadraoRight{
+    float: right;
+    margin: 0;
+}
+
+.btnPadrao:hover, .btnPadraoRight:hover{
+    background-image: -moz-linear-gradient(center top , #FFFFFF 0pt, #E0E0E0 100%);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 0 3px #FFFFFF inset;
+}
+
+.linhaW2perc
+{
+    width: 2%;
+    float: left;
+    height: 10px;
+}
+
+.containerDialogo{
+    display: none;
+}
+
+
+#navegacao #imageDetailsText{
+    font-size: 11px;
+    font-family: Consolas, 'Courrier New', mono-spaced;
+}
+
+#navegacao #imageDetails{
+    margin-top: 10px;
+}
+
+#navegacao .picCommand{
+    text-decoration: none !important;
+    color: #0074cc;
+    cursor: pointer;
+}
+
+#navegacao .picCommand:hover{
+    color: #111;
+}
+
+#cbWrap{
+    background-color: #EFEFEF;
+    border: 1px solid #AAAAAA;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    font: 14px/24px Arial,Tahoma;
+    padding: 8px 10px;
+    height: 120px;
+    overflow-y: auto;
+}
+
+#navegacao #picWrapperMin{
+    background-color: lightpink;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#navegacao #picWrapperMin #pic{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#navegacao #picWrapperMin #overlay{
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 120px;
+    opacity: 0.75;
+}
+
+#navegacao #picWrapperMin #overlay img{
+    cursor: pointer;
+}
+
+
+
+#navegacao #picWrapper{
+    background-color: lightpink;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#navegacao #picWrapper #pic{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#navegacao #picWrapper #overlay{
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    opacity: 0.75;
+}
+
+#navegacao #picWrapper #overlay img{
+    cursor: pointer;
+}

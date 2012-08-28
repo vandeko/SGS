@@ -1,0 +1,38 @@
+#painel{
+    background: url(/_modulos/_site/_images/painel_oportunidades.png) no-repeat;
+    width: 465px;
+    height: 205px;
+    color:#363739;
+    padding-top: 49px;
+    padding-left: 3px;
+}
+
+#painel table{
+    font-family: Tahoma, Helvetica, Verdana, Arial, sans-serif;    
+    font-size: 11px !important;
+}
+
+#painel td{
+    height: 19px;
+    text-align: center;
+}
+
+#painel #col1{
+    width: 232px;
+    float: left;
+}
+
+#painel #col2{
+    width: 232px;
+    height: 180px;
+    float: left;
+}
+
+#painel #cliqueAqui{
+    width: 115px;
+    height: 15px;
+/*    background-color: rgba(0,255,255,0.2);*/
+    margin-top: 117px;
+    margin-left: 25px;
+    cursor: pointer;
+}

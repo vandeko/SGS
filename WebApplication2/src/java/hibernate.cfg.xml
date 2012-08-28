@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory name="hibernate/SessionFactory">
+        <property name="hibernate.connection.datasource">java:/comp/env/jdbc/tcc</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.transaction.factory_class">
+            org.hibernate.transaction.JDBCTransactionFactory
+        </property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+        <property name="hibernate.jdbc.batch_size">0</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.c3p0.min_size">0</property>
+        <property name="hibernate.c3p0.max_size">10</property>
+        <mapping class="helpDesk.entidades.Usuario"/>
+        <mapping class="helpDesk.entidades.Patrimonio"/> 
+        <mapping class="helpDesk.entidades.Setor"/>             
+        <mapping class="helpDesk.entidades.Chamado"/>
+        <mapping class="helpDesk.entidades.DetalheChamado"/>
+        <mapping class="helpDesk.entidades.Servico"/>
+        <mapping class="helpDesk.entidades.TipoServico"/>        
+    </session-factory>
+</hibernate-configuration>

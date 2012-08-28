@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+        http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+        version="2.4">
+
+    <!-- Descrição geral da aplicação web (opcional) -->
+    <display-name>Livraria Virtual</display-name>
+    <description>Loja virtual que mostra várias formas de
+                 utilização dos servlets.</description>
+
+    <servlet>
+        <servlet-name>entrada</servlet-name>
+        <servlet-class>jandl.stationery.ServletStationery</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>header</servlet-name>
+        <servlet-class>jandl.stationery.ServletHeader</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ofertas</servlet-name>
+        <servlet-class>jandl.stationery.ServletOfertas</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>catalogo</servlet-name>
+        <servlet-class>jandl.stationery.ServletCatalogo</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>detalhes</servlet-name>
+        <servlet-class>jandl.stationery.ServletDetalhe</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>carrinho</servlet-name>
+        <servlet-class>jandl.stationery.ServletCarrinho</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>caixa</servlet-name>
+        <servlet-class>jandl.stationery.ServletCaixa</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>recibo</servlet-name>
+        <servlet-class>jandl.stationery.ServletRecibo</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>entrada</servlet-name>
+        <url-pattern>/entrada</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>header</servlet-name>
+        <url-pattern>/topo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ofertas</servlet-name>
+        <url-pattern>/ofertas</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>catalogo</servlet-name>
+        <url-pattern>/catalogo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>detalhes</servlet-name>
+        <url-pattern>/detalhes</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>carrinho</servlet-name>
+        <url-pattern>/carrinho</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>caixa</servlet-name>
+        <url-pattern>/caixa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>recibo</servlet-name>
+        <url-pattern>/recibo</url-pattern>
+    </servlet-mapping>
+</web-app>

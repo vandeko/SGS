@@ -1,0 +1,97 @@
+#socialWrapper{
+    width: 100%;
+    text-align: center;
+}
+
+#social{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+#rodapeWrapper{
+    margin-top: 10px;
+    width: 100%;
+    
+}
+
+
+#rodapeContainer{
+    width: 1000px;
+    height: 65px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: HelveticaNeueLTStd67MdCn;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+#rodapeContainer .main{
+    background: url(/_modulos/_site/_images/rodape.png) no-repeat;
+    width: 1000px;
+    background-position: 70px 0px;
+    height: 65px;
+    color: white;
+    padding-top: 5px;
+}
+
+#copy{
+    font-family: HelveticaNeueLTStd67MdCn;
+    font-size: 13px;
+    color: #58595b;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 1000px;
+    text-align: center;
+}
+
+#desenvolvidoWrapper{
+    width: 100%;
+}
+
+#desenvolvidoContainer{
+    width: 1000px;
+    height: 86px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#desenvolvido{
+    background: url(/_modulos/_site/_images/desenvolvido.png) repeat-x;
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 57px;
+    height: 90px;
+    padding-top: 35px;
+}
+
+span#helv{
+    font-family: HelveticaNeueLTStd57Condensed;
+}
+
+#SouzaOliveira{
+    float: left;
+    width: 135px;
+    height: 40px;
+    background: url(/_modulos/_site/_images/logos.png) repeat-x;
+    margin-left: 25px;
+}
+
+#ProsperTecnologia{
+    float: left;
+    width: 107px;
+    height: 40px;
+    background: url(/_modulos/_site/_images/logos.png) repeat-x;
+    background-position: -140px 0px;
+    margin-left: 75px;
+}
+
+#SouzaOliveira:hover{
+    background-position: 0px -41px;
+    cursor: pointer;
+}
+
+#ProsperTecnologia:hover{
+    background-position: -140px -40px;
+    cursor: pointer;
+}

@@ -1,0 +1,89 @@
+#Contato1{
+    width: 43%;
+    float: left;
+    padding-left: 3%;
+    margin-top: 10px;
+    border-right: 3px dotted #00AEEF;
+}
+
+#Contato2{
+    width: 50%;
+    float: left;
+    font-family: 'HelveticaNeueLTStd67MdCn';
+    font-size: 18px;
+    color: #004A80;
+    margin-left: 3%;
+}
+
+#Contato2 select{
+    font-family: 'HelveticaNeueLTStd67MdCn';
+    font-size: 14px;
+/*  padding: 7px 0px 7px 7px;*/
+    border: 2px solid #00AEEF;
+    outline: 0px;
+    width: 400px;
+    background-color: #EEF;
+    letter-spacing: 1px;
+    margin: 10px 0 10px 0;
+    height: 30px;
+
+}
+
+#comoChegar{
+    color: #6D6E71;
+    margin-top: 10px;
+}
+
+iframe{
+    border: 2px solid #004A80;
+}
+
+#mapa{
+    width: 475px;
+    height: 450px;
+    background-color: #EEE;
+}
+
+#rua{
+    padding-top: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+#Contato1 .tituloTab{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+#Contato1 .inputTab{
+    margin-bottom: 15px;
+}
+
+#Contato1 input[type=text]{
+    width: 388px;
+}
+
+#Contato1 textarea {
+    font-family: Tahoma;
+    font-weight: normal;
+    font-size: 16px; width: 100%;
+    color: #333333;
+    border: 1px solid #aaaaaa;
+    background-color: #efefef ;
+    width: 388px;
+}
+
+#Contato1 select {
+    font-family: Tahoma;
+    height: 30px;
+    font-size: 16px; width: 100%;
+    color: #333333;
+    border: 1px solid #aaaaaa;
+    background-color: #efefef ;
+    width: 391px;
+}
